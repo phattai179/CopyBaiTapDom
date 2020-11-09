@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>BaiTap HinhChuNhat</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- Bài Tập Tính Chu Vi & Diện Tích -->
+    <div class="chuViDienTich">
+        <div class="container mt-5">
+            <div class="card">
+                <div class="card-header bg-danger text-white text-center font-weight-bold display-5">
+                  CHƯƠNG TRÌNH TÍNH DIỆN TÍCH - CHU VI - HÌNH VẼ
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-4">
+                          <p>Nhập chiều dài</p>
+                          <input type="number" id="chieuDai">
+                        </div>
+
+                        <div class="col-4">
+                          <p>Chu vi</p>
+                          <input type="number" id="chuVi">
+                        </div>
+
+                        <div class="col-4">
+                          <p class="mb-0">Hình Vẽ</p>
+                          <div id="hinhVe" class="mt-0"></div>
+                          <input type="radio" name="color" id="do">
+                          <label for="do">Đỏ</label>
+                          <input type="radio" name="color" id="cam">
+                          <label for="cam">Cam</label>
+                          <input type="radio" name="color" id="luc">
+                          <label for="luc">Lục</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-4">
+                        <p>Nhập chiều rộng</p>
+                        <input type="number" id="chieuRong">
+                      </div>
+
+                      <div class="col-8">
+                        <p>Diện tích</p>
+                        <input type="text" id="dienTich">
+                      </div>
+                    </div>
+                    
+                  <a href="#" class="btn btn-success mt-3" id="btn-click">Tính và vẽ hình</a>
+
+                  <a href="#" class="btn btn-danger">Xóa hình</a>
+                  
+                  <a href="#" class="btn btn-primary">Đổi hình</a>
+
+                  <a href="#" class="btn btn-danger">Xóa hình</a>
+
+                  <a href="#" class="btn btn-secondary">Ẩn hình</a>
+                </div>
+              </div>
+        </div>
+    </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="./js/index.js"> 
+
+    </script>
+
+  </body>
+</html>
